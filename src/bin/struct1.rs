@@ -6,9 +6,10 @@ fn main() {
         sign_in_count: 1,
     };
 
-    println!("{}", user1);
+    println!("{:?}", user1);
 }
 
+#[derive(Debug)]
 struct User {
     active: bool,
     username: String,
